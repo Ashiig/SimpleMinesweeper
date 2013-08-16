@@ -61,7 +61,7 @@ package Entities
 			cancelButton.x = 150 + 65;
 			cancelButton.y = 110;
 			
-			addEventListener(MouseEvent.CLICK, onCatchClick);
+		//	addEventListener(MouseEvent.CLICK, onCatchClick);
 		}
 		
 		//Was running into some click absorption issues.  Probably no longer necessary, since I moved the menu popup onto the stage.
