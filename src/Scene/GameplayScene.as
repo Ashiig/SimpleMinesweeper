@@ -40,8 +40,8 @@ package Scene
 			tileState = new Array();
 			//resource pool used to ensure an exact number of mines
 			var spread:Array = [];
-			for(var i:int = 0; i < width * height; i++){
-				if(i < count){
+			for(var n:int = 0; n < width * height; n++){
+				if(n < count){
 					spread.push(1);
 				}
 				else{
